@@ -6,7 +6,7 @@ git remote add origin https://github.com/goov2016/goov_web.git
 git push -u origin master
 
 下载代码
-1.git pull
+1.git pull https://github.com/goov2016/goov_web
   如果远程分支和本地分支有冲突，会遇到Merge Conflict提示，然后要手动解决冲突。
 
 2.git fetch
