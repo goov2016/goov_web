@@ -9,7 +9,15 @@ class UserController extends Controller{
 		// $mongo = new MongodbUtil("127.0.0.1:27017");
 		// $mongo->selectDb("hrdb");
 		// $result = $mongo->find("user_info", array('telphone'=>array('$exists'=>true)),array(),array('_id'=>false));
- 		return $this->render('index', $result);
+ 		return $this->render('index', array());
+		
+	}
+
+	public function actionReg(){
+		// $mongo = new MongodbUtil("127.0.0.1:27017");
+		// $mongo->selectDb("hrdb");
+		// $result = $mongo->find("user_info", array('telphone'=>array('$exists'=>true)),array(),array('_id'=>false));
+ 		return $this->render('reg', array());
 		
 	}
 	
